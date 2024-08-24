@@ -1,0 +1,41 @@
+body {
+  background-image: url("https://img.freepik.com/free-vector/colored-realistic-design-snacks-vending-machine-with-electronic-control-panel-isolated_1284-30751.jpg?t=st=1724530442~exp=1724534042~hmac=f804f9674f888fcc5cb6ce92d4d4ad5b5f79fe2617b4ad34ee199180cdb4a65f&w=740");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+#main-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+}
+
+#snack-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+  margin-right: 20px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.selected-snack {
+  font-size: 2rem;
+  text-align: center;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.selected-snack {
+  font-size: 1.5rem;
+  text-align: center;
+  color: black;
+}
